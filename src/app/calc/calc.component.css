@@ -1,0 +1,49 @@
+.calc{
+  max-width: 20%;
+  background-color: black;
+  border-radius: 10px;
+  margin-top: 10px
+}
+
+.smt-btn{
+  border-radius: 50%;
+  max-width: 19%;
+  margin: 10px 0px 10px 10px;
+  align-items: "center";
+}
+
+.row{
+  margin-left: 10px;
+}
+
+.num .zero{
+  background-color: black;
+  color: white;
+  border-radius: 1px solid grey;
+}
+
+.op{
+  background-color: orange;
+  color: white;
+}
+
+.common{
+  background-color: grey;
+  color: white;
+}
+
+.zero{
+  max-width: 42%
+}
+
+.res{
+  color: white;
+  padding-right: 30px;
+  font-size: 20px;
+  max-width: 100%;
+}
+
+.title{
+  color: white;
+  font-size: 20px;
+}

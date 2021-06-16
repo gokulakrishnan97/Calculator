@@ -1,0 +1,35 @@
+<div class="calc">
+  <div class="row res-sec">
+    <p class="title">Simple Calculator</p>
+    <p class="res" align="right">{{userInput}}</p>
+  </div>
+  <div class="row">
+      <button class="smt-btn common col-md-3" (click)="reset()">AC</button>
+      <button class="smt-btn common col-md-3">+/-</button>
+      <button class="smt-btn common col-md-3" (click)="calc($event)">%</button>
+      <button class="smt-btn op col-md-3" (click)="calc($event)">/</button>
+  </div>
+  <div class="row">
+      <button class="smt-btn num col-md-3" (click)="clickNumber($event)">7</button>
+      <button class="smt-btn num col-md-3" (click)="clickNumber($event)">8</button>
+      <button class="smt-btn num col-md-3" (click)="clickNumber($event)">9</button>
+      <button class="smt-btn op col-md-3" (click)="calc($event)">*</button>
+  </div>
+  <div class="row">
+      <button class="smt-btn num col-md-3" (click)="clickNumber($event)">4</button>
+      <button class="smt-btn num col-md-3" (click)="clickNumber($event)">5</button>
+      <button class="smt-btn num col-md-3" (click)="clickNumber($event)">6</button>
+      <button class="smt-btn op col-md-3" (click)="calc($event)">-</button>
+  </div>
+  <div class="row">
+      <button class="smt-btn num col-md-3" (click)="clickNumber($event)">1</button>
+      <button class="smt-btn num col-md-3" (click)="clickNumber($event)">2</button>
+      <button class="smt-btn num col-md-3" (click)="clickNumber($event)">3</button>
+      <button class="smt-btn op col-md-3" (click)="calc($event)">+</button>
+  </div>
+  <div class="row">
+      <button class="smt-btn zero col-md-6" (click)="clickNumber($event)">0</button>
+      <button class="smt-btn num col-md-3">.</button>
+      <button class="smt-btn op col-md-3" (click)="calc($event)">=</button>
+  </div>
+</div>
