@@ -1,2 +1,2 @@
 Simple Calculator
-It performs basic operations(eg.. additio, subtraction)
+It performs basic operations(eg.. addition, subtraction)
